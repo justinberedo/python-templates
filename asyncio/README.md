@@ -22,3 +22,7 @@ def m(x):
     y = await z(x)  # Still no - SyntaxError (no `async def` here)
     return y
 ```
+
+## References
+- https://docs.python.org/3/library/asyncio.html
+- https://realpython.com/async-io-python/#a-full-program-asynchronous-requests
